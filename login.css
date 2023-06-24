@@ -1,0 +1,53 @@
+body{
+    background-image: url(joanna-kosinska-7ACuHoezUYk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1{
+    font-family: cursive;
+    margin-left: 38%;
+    color: white;
+    font-size: 25px;
+}
+.formid input{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 50%;
+    background-color: rgb(21, 33, 47);
+    color: white;
+}
+.formid label{
+    display: flex;
+    font-size: 10px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 2px;
+}
+.loginform{
+    margin-left: 35%;
+}
+.but{
+    background-color: rgb(32, 31, 49);
+    color: white;
+    height: 30px;
+    width: 75px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    border-color: white;
+    margin-left: 23%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.but:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    background-color: aliceblue;
+    color: black;
+}
+.formerror{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    margin-left: 10px;
+}
